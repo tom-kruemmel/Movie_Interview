@@ -1,11 +1,15 @@
-# Skill
-Template skill
+# FurHat Skill
 
-## Description
-This is a skill template, see [the docs](https://docs.furhat.io/skills/#the-contents-of-a-skill) for a breakdown of the content. 
-For more example skills go to [our Github](https://github.com/FurhatRobotics/)
+## Overview
+This skill provides an interactive conversation flow for the Furhat robot centered around cinema experiences, both past and recent. It guides the user through questions about their latest cinema visits, their opinions on movies, and their reflections on the general state of cinemas today.
 
-## Usage
-Max number of users is set to: 2
-Default interaction distance is set to: 1 m
-No other specific requirements. 
+## Example States:
+
+1. **LastMovieWatched** - Open question, no intent recognition.
+2. **AskGenreState** - SlotFilling state with intent recognition.
+3. **SeenMovieState** - Yes or no question.
+
+## Usage:
+
+- Ensure you have the Furhat SDK and necessary dependencies installed.
+- For Further Information, see: https://docs.furhat.io/ 
